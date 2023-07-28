@@ -2,17 +2,6 @@
     <head>
         <title>Blackcloud Syndicate</title>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.3.2/dist/amplitude.js"></script>
-        <script type="text/javascript">
-            const songs = [
-                {
-                    "name": "The Barrage",
-                    "artist": "Blackcloud Syndicate",
-                    "album": "TBD",
-                    "url": "The Barrage - Full Mix Cut for Mass Debate v2 - 29-Jun-23 - UnLandred.mp3",
-                    "cover_art_url": "Graphics/Blackcloud - Heavy Mental Social Club.jpg"
-                },
-            ];
-        </script>
         <style>
             body {
                 text-align: center;
@@ -73,6 +62,15 @@
         </div>
         <div id="single-song-player">
             <img amplitude-song-info="cover_art_url" amplitude-main-song-info="true"/>
+            <img amplitude-song-info="cover_art_url" amplitude-main-song-info="true"/>
+            <progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
+            <span class="current-time">
+                <span class="amplitude-current-minutes" amplitude-main-current-minutes="true"></span>:<span class="amplitude-current-seconds" amplitude-main-current-seconds="true"></span>
+            </span>
+            <span class="duration">
+                <span class="amplitude-duration-minutes" amplitude-main-duration-minutes="true"></span>:<span class="amplitude-duration-seconds" amplitude-main-duration-seconds="true"></span>
+            </span>
+            <div class="amplitude-play-pause" amplitude-main-play-pause="true" id="play-pause"></div>
         </div>
         <p>If you enjoy this, please feel free to get in touch!</p>
         <div class="band-links">
@@ -94,5 +92,17 @@
                 </li>
             </ul>
         </div>
+        <script type="text/javascript">
+            Amplitude.init({
+                "songs": [
+                {
+                    "name": "The Barrage",
+                    "artist": "Blackcloud Syndicate",
+                    "album": "TBD",
+                    "url": "The Barrage - Full Mix Cut for Mass Debate v2 - 29-Jun-23 - UnLandred.mp3",
+                    "cover_art_url": "Graphics/Blackcloud - Heavy Mental Social Club.jpg"
+                },
+            ]});
+        </script>
     </body>
 </html>
