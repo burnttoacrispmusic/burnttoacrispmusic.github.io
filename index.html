@@ -1,6 +1,18 @@
 <html>
     <head>
         <title>Blackcloud Syndicate</title>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.3.2/dist/amplitude.js"></script>
+        <script type="text/javascript">
+            const songs = [
+                {
+                    "name": "The Barrage",
+                    "artist": "Blackcloud Syndicate",
+                    "album": "TBD",
+                    "url": "The Barrage - Full Mix Cut for Mass Debate v2 - 29-Jun-23 - UnLandred.mp3",
+                    "cover_art_url": "Graphics/Blackcloud - Heavy Mental Social Club.jpg"
+                },
+            ];
+        </script>
         <style>
             body {
                 text-align: center;
@@ -58,6 +70,9 @@
                 <source src="The Barrage - Full Mix Cut for Mass Debate v2 - 29-Jun-23 - UnLandred.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+        </div>
+        <div id="single-song-player">
+            <img amplitude-song-info="cover_art_url" amplitude-main-song-info="true"/>
         </div>
         <p>If you enjoy this, please feel free to get in touch!</p>
         <div class="band-links">
