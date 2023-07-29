@@ -111,6 +111,11 @@ div.amplitude-play-pause.amplitude-playing {
     width: 75%;
     height: 100px;
 }
+.song-played-progress-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 img.debt-img {
     width: 375px;
     margin: 40px 10px;
@@ -129,7 +134,7 @@ img.debt-img {
         <div id="single-song-player">
             <div class="control-container">
                 <div class="amplitude-play-pause" amplitude-main-play-pause="true" id="play-pause"></div>
-                <div class="song-played-progress">
+                <div class="song-played-progress-container">
                     <span class="current-time">
                         <span class="amplitude-current-minutes" amplitude-main-current-minutes="true"></span>:<span class="amplitude-current-seconds" amplitude-main-current-seconds="true"></span>
                     </span>
