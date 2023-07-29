@@ -31,6 +31,13 @@ p {
 div.debt-cta p {
     background-color: #3a243b;
 }
+div.debt-cta a {
+    margin: 40px auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+}
+
 p.main-blurb {
     background-color: #000;
     border: 5px double #fff;
