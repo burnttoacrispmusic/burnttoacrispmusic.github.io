@@ -1,10 +1,120 @@
 <html>
     <head>
         <title>Blackcloud Syndicate</title>
-        <link rel="stylesheet" href="./css/style.css" />
+        <!-- <link rel="stylesheet" href="./css/style.css" /> -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.3.2/dist/amplitude.js"></script>
         <style>
-            
+            body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+h1.main-header {
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+h2.sub-header {
+    margin-top: 0;
+}
+img.band-image {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+div.band-links, div.debt-cta {
+    border: 5px double #fff;
+    background-color:beige;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+p {
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 40px 20px;
+    margin: 0;
+}
+div.debt-cta p {
+    background-color: #3a243b;
+}
+div.debt-cta a {
+    /* display: block; 
+    font-size: 3em; */
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+div.debt-cta a:hover {
+    background-color: #444;
+}
+p.main-blurb {
+    background-color: #000;
+    border: 5px double #fff;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+p.contact-cta {
+    background-color: #008;
+}
+audio {
+    display: block;
+    width: 500px;
+}
+ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+ul li {
+    display: inline-block;
+    height: 4em;
+    background-repeat: no-repeat;
+    background-position: 0 .4em;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 100px;
+}
+ul li a {
+    display: block;
+    line-height: 3.5em;
+    color: #000;
+}
+ul li:nth-child(1){
+    background-image: url('./Graphics/facebook.png');
+}
+ul li:nth-child(2){
+    background-image: url('./Graphics/instagram.png');
+}
+ul li:nth-child(3){
+    background-image: url('./Graphics/email.png');
+}
+div.amplitude-play-pause {
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    margin: auto;
+}
+div.amplitude-play-pause.amplitude-paused {
+    background: url('./Graphics/play-button-svgrepo-com.svg');
+    background-size: cover;
+}
+
+div.amplitude-play-pause.amplitude-playing {
+    background: url('./Graphics/pause-button-svgrepo-com.svg');
+    background-size: cover;
+}
+.amplitude-song-played-progress {
+    width: 75%;
+    height: 100px;
+}
+img.debt-img {
+    width: 600px;
+    margin: 20px 25px;
+    vertical-align: middle;
+}
         </style>
     </head>
     <body>
