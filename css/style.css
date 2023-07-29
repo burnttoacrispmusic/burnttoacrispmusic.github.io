@@ -111,7 +111,7 @@ div.amplitude-play-pause.amplitude-playing {
     align-items: center;
 }
 
-.amplitude-song-slider {
+.amplitude-song-played-progress {
     height: 100px;
     width: 70%;
 }
