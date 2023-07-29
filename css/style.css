@@ -32,8 +32,8 @@ div.debt-cta p {
     background-color: #3a243b;
 }
 div.debt-cta a {
-    display: block; 
-    font-size: 3em;
+    /* display: block; 
+    font-size: 3em; */
     background-color: #000;
     color: #fff;
     border-radius: 40px;
