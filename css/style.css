@@ -32,6 +32,8 @@ div.debt-cta p {
     background-color: #3a243b;
 }
 div.debt-cta a {
+    display: block;
+    width: 40%;
     margin: 40px auto;
     background-color: #000;
     color: #fff;
@@ -101,4 +103,5 @@ div.amplitude-play-pause.amplitude-playing {
 }
 img.debt-img {
     width: 200px;
+    vertical-align: middle;
 }
