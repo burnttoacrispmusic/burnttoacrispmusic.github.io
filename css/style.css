@@ -38,8 +38,12 @@ div.debt-cta a {
     background-color: #000;
     color: #fff;
     border-radius: 40px;
+    text-decoration: none;
 }
 
+div.debt-cta a:hover {
+    background-color: #444;
+}
 p.main-blurb {
     background-color: #000;
     border: 5px double #fff;
