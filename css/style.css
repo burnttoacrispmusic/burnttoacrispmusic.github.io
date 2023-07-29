@@ -33,7 +33,8 @@ div.debt-cta p {
 }
 div.debt-cta a {
     display: block;
-    width: 40%;
+    width: 75%;
+    font-size: 3em;
     margin: 40px auto;
     background-color: #000;
     color: #fff;
