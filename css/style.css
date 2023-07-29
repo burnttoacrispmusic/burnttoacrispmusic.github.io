@@ -80,15 +80,15 @@ ul li a {
     color: #000;
 }
 ul li:nth-child(1){
-    background-image: url('./Graphics/facebook.png');
+    background-image: url('../Graphics/facebook.png');
     color: #fff;
 }
 ul li:nth-child(2){
-    background-image: url('./Graphics/instagram.png');
+    background-image: url('../Graphics/instagram.png');
     color: #fff;
 }
 ul li:nth-child(3){
-    background-image: url('./Graphics/email.png');
+    background-image: url('../Graphics/email.png');
 }
 div.amplitude-play-pause {
     width: 400px;
@@ -97,12 +97,12 @@ div.amplitude-play-pause {
     margin: auto;
 }
 div.amplitude-play-pause.amplitude-paused {
-    background: url('./Graphics/play-button.svg');
+    background: url('../Graphics/play-button.svg');
     background-size: cover;
 }
 
 div.amplitude-play-pause.amplitude-playing {
-    background: url('./Graphics/pause-button.svg');
+    background: url('../Graphics/pause-button.svg');
     background-size: cover;
 }
 .song-played-progress-container {
